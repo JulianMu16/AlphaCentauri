@@ -135,3 +135,14 @@
   (anonymous function) (https://www.ncei.noaa.gov/cmb-lib/assets/jquery-3.6.0.min.js:2)
 
   phantomjs://platform/console++.js:263 in error
+[ERROR - 2023-04-20T22:41:03.401Z] Session [48a32fd0-dfcc-11ed-a5de-2f9b658976ae] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.values(response.products)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2023-04-20T22:41:03.401Z] Session [48a32fd0-dfcc-11ed-a5de-2f9b658976ae] - page.onError - stack:
+  (anonymous function) (https://www.ncei.noaa.gov/cmb-lib/js/search-monitoring.js:22)
+  c (https://www.ncei.noaa.gov/cmb-lib/assets/jquery-3.6.0.min.js:2)
+  fireWith (https://www.ncei.noaa.gov/cmb-lib/assets/jquery-3.6.0.min.js:2)
+  l (https://www.ncei.noaa.gov/cmb-lib/assets/jquery-3.6.0.min.js:2)
+  (anonymous function) (https://www.ncei.noaa.gov/cmb-lib/assets/jquery-3.6.0.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error

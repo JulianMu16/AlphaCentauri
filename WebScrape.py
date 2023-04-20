@@ -1,5 +1,10 @@
 from bs4 import BeautifulSoup as bs
 import re
+
+#in query input the longittude so can call DataPull(-110) to get data
+# must download seleneium, go to anaconda, go to environ ment set sort
+#  to not installed and click and install selenium
+
 def DataPull(query):
     from selenium import webdriver
 #-110 -100 -90 -80
@@ -27,4 +32,4 @@ def DataPull(query):
 
     # data one loop
     return lst
-DataPull(str(-110))
+#DataPull(str(-110))
