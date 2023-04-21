@@ -18,7 +18,7 @@ from CalcPlot import *
 # Location #3: Lat: 40 Lon: -90
 # Location #4: Lat 40: Lon -80
 
-def api_request(url, file_num, cur_dict, dict_list):
+def api_request(url, cur_dict, dict_list):
     response = requests.get(url)
     data = response
     response.close()
@@ -122,7 +122,7 @@ def main():
          calc = num + (x * 10)
          URL = "https://developer.nrel.gov/api/solar/solar_resource/v1.json?api_key=5PVQvuLyG48QD6P8MvkWGUUDfJXyyPcOAVaQCIu1&lat=40&lon=" + str(calc)
          curr_dict = dict_list[x]
-         api_request(URL, calc, curr_dict, radiation_dict_list)
+         api_request(URL, curr_dict, radiation_dict_list)
 
     # Open database
     path = os.path.join(os.path.dirname(__file__))

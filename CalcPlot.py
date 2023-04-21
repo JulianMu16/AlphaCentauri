@@ -99,3 +99,4 @@ def calc_avg_anomaly_per_annual_rad(cur):
 
     # Show all plots
     plt.show()
+    return
