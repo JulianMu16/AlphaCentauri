@@ -1,0 +1,13 @@
+Considerable Anomalies at lattitude 40, longitude -80:
+[(1.48,), (1.83,), (1.71,), (2.58,), (5.4,), (2.92,), (2.02,), (1.81,), (2.02,), (1.53,), (0.9,), (-1.58,)]
+Average DNI at latitude 40, longitude -80:
+3.43
+Average Considerable Anomaly at latitude 40, longitude -80:
+1.885
+
+Conisderable Anomalies at latitude 40, longitude -110:
+[(-1.71,), (2.43,), (1.06,), (0.93,), (1.62,), (2.32,), (2.7,), (3.47,), (2,), (1.05,), (1.09,), (-1.05,), (-2.63,), (-1.4,), (-3.26,), (-1.08,)]
+Average DNI at latitude 40, longitude -110:
+6.5
+Average Considerable Anomaly at latitude 40, longitude -110:
+0.471
