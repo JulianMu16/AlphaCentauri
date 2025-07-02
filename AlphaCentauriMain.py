@@ -8,6 +8,7 @@ import os
 from WebScrape import *
 from CalcPlot import *
 
+
 # PROJECT: How does solar radiation affect temperature anomalies/global warming?
 # Pull from Solar Radiation Database and NOAA website to get data and plot it
 
